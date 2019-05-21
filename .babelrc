@@ -1,0 +1,29 @@
+{
+  "presets": [
+    "next/babel",
+    "@zeit/next-typescript/babel"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./"
+        ],
+        "alias": {
+          "styles": "./styles"
+        },
+        "cwd": "babelrc"
+      }
+    ],
+    [
+      "import",
+      {
+        "libraryName": "@material-ui/core",
+        "libraryDirectory": "es",
+        "style": "css"
+      }
+    ]
+  ],
+  "ignore": []
+}

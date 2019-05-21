@@ -1,0 +1,43 @@
+{
+  "name": "next-app--basic",
+  "version": "0.1.0",
+  "license": "ISC",
+  "author": "Nil fang",
+  "keywords": [
+    "nextjs",
+    "next-app",
+    "ts"
+  ],
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "eslint": "eslint --ext .js --ext .jsx --ext .tsx ./"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "@zeit/next-sass": "^1.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "autoprefixer": "^9.5.1",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-import": "^1.11.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "next": "^8.1.0",
+    "node-sass": "^4.12.0",
+    "npm": "^6.9.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^3.0.0",
+    "pre-commit": "^1.2.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "pre-commit": [
+    "eslint"
+  ]
+}

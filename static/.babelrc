@@ -1,0 +1,31 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "."
+        ],
+        "alias": {
+          "styles": "./styles"
+        },
+        "cwd": "babelrc"
+      }
+    ],
+    [
+      "import",
+      {
+        "libraryName": "@material-ui/core",
+        "libraryDirectory": "es",
+        "style": true
+      },
+      {
+        "libraryName": "@material-ui/icons"
+      }
+    ]
+  ],
+  "ignore": []
+}

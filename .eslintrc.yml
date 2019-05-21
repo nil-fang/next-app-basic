@@ -1,0 +1,41 @@
+env:
+  browser: true
+  es6: true
+  node: true
+extends: 'airbnb'
+globals:
+  Atomics: readonly
+  SharedArrayBuffer: readonly
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+  ecmaVersion: 2018
+  sourceType: module
+plugins:
+  - react # 目前没有找到支持nextjs的插件，暂时借用react的插件
+rules:
+  react/jsx-filename-extension: 
+    - warn
+    - extensions:
+      - ".js" # .js 文件适用
+      - ".jsx"
+  indent:
+    - error
+    - 2 # 表示缩进 2 spaces
+  linebreak-style:
+    - off
+    - error
+    - unix
+  quotes:
+    - error
+    - single
+  semi:
+    - error
+    - always
+  comma-dangle:
+    - off
+  no-param-reassign:
+    - off
+  react/destructuring-assignment:
+    - off
+  
