@@ -10,7 +10,7 @@
   + nextjs官方文档：<http://nextjs.frontendx.cn/>
   + create-next-app官方文档：<https://open.segment.com/create-next-app/>
 
-+ **如何使用 **
++ **如何使用**
 
   + 获取
 
